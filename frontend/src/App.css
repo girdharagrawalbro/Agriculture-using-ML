@@ -1,0 +1,51 @@
+/* custom css */
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+ul {
+   list-style: none;
+}
+
+a, Link, li{
+  text-decoration: none;
+  color:white;
+}
+
+
+.contact{
+  background-color: #37ff008a;
+}
+.main {
+  background: url('https://s3-alpha-sig.figma.com/img/9df8/5620/af155cb993ce7f92245c77a864fa7009?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qXl-R7au6S7Xc7yFxumbUSZOFlU12l-VAzhTyOddwejIq6-SblV0ct~QsgmWs9cQTv5pNTB0ChxIr7yAyYrb~sq-MCzRru0Yih8gusIzI0miXZPVCCm-wH9GneLppSwElaUoGZGO0p82ZlLK4-kfxHsmAiHatTBSPx7tFviAY5regZAHjHOMpse-Z1~cYiUBAUSlN04rv5F-Iiy2U9g2P8cbkHNV6ir8aWlNvMvBCvMzrUmB9W7~MtjCBc7KCqMkPQWHZb4klUn4Gb5e8gE~hEsNjqEW5SwcOvJklsab~1HMHKE~5aWAiAexVNZ9vUHKlgwlsvqjfw9-zJxotzVpOg__');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  gap: 10px;
+}
+
+.large-text {
+  font-family: 'Aboreto', cursive;
+  font-size: 136px;
+  letter-spacing: 5.1px;
+  font-weight: lighter;
+}
+
+.text-ai {
+  font-size: 220px;
+  font-weight: bolder;
+  margin: 0;
+  line-height: 0;
+}
+
+.form input{
+  width: 500px;
+  padding: 5px 10px;
+border-radius: 10px;
+border: 1px solid gray;
+}
